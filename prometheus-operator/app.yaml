@@ -4,6 +4,7 @@ metadata:
   name: prometheus-operator
   namespace: kube-system
 spec:
+  helmVersion: v2
   chart: stable/prometheus-operator
   version: 8.7.0
   targetNamespace: monitoring
